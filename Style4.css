@@ -1,0 +1,147 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color:rgb(203, 227, 255);
+  }
+  
+  header {
+    background: rgb(3, 7, 34);
+    color: #fff;
+    padding: 10px 20;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+   
+  }
+  
+  .logo {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin: 0 15px;
+  }
+  
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+  }
+  #bold{
+    background-color: rgb(203, 227, 255) ;
+    color: rgb(8, 17, 78);
+    align-items: center;
+  }
+  .bold li{
+    text-align: left;
+    margin: 0 15px;
+    font-size: 17px;
+    margin-left: 4rem;
+  }
+  .bold ul{
+    height: 50vh;
+  }
+  .bold p{
+    font-size: 20px;
+    text-align: left;
+    margin-left: 2rem;
+  }
+  .bold h2{
+    font-size: 35px;
+    text-align:center;
+  }
+  .bold h1{
+    font-size: 25px;
+    margin-left: 2rem;
+  }
+  /* Services */ 
+  .services {
+    color: rgb(8, 17, 78);
+    background-color: rgb(203, 227, 255);
+    padding: 50px 20px;
+    text-align: center;
+    height: 100vh;
+    margin-bottom: 5rem;
+  }
+  .services h2{
+    text-align: center;
+    align-items: center;
+    font-size: 35px;
+    margin-bottom: 2rem;
+  }
+  .service-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .service {
+    margin: 15px;
+    width: 300px;
+  } 
+  .service img {
+    width: 40%;
+  }
+  #bold1{
+    background-color :rgb(203, 227, 255) ;
+    color:rgb(8, 17, 78);
+  }
+  .bill p{
+    font-size: 20px;
+    text-align: center;
+  }
+
+  /* Footer */
+.footer {
+    background-color:rgb(3, 7, 34);
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  .footer p {
+    margin-bottom: 10px;
+  }
+  
+  .footer-links {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-links li {
+    display: inline;
+    margin-right: 15px;
+  }
+  
+  .footer-links li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .nav-links {
+      flex-direction: column;
+    }
+  
+    .service-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  }

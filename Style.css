@@ -1,0 +1,241 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color:rgb(203, 227, 255);
+  }
+  
+  header {
+    background:rgb(3, 7, 34);
+    color: #fff;
+    padding: 10px 20;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+   
+  }
+  
+  .logo {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin: 0 15px;
+  }
+  
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .hero {
+    background-color:rgb(203, 227, 255);
+    color: rgb(8, 17, 78);
+    height:85vh; 
+    width: 100%;
+    gap: 14%; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+
+  }
+  .image {
+    width: 30%;
+    margin-top: 2rem;
+    justify-content: right;
+    border: 4px solid rgb(10, 17, 70);
+    border-radius: 4%;
+    margin-left: 4rem;
+   }
+ .paragraph{
+    margin-top: 2rem;
+    margin-right: 4rem;
+   }
+ .paragraph h1{
+  font-size: 50px;
+ }
+ .paragraph p{
+  font-size: 20px;
+ }
+ .btn {
+  align-items: center;
+ }
+  .cta {
+    background: rgb(4, 10, 53);
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration:none;
+    margin-top: 15px;
+  }
+  .cta:hover{
+    background:#ff3f0f ;
+ }
+  
+  .services {
+    color: rgb(8, 17, 78);
+    background-color:rgb(203, 227, 255);
+    padding: 50px 20px;
+    text-align: center;
+  }
+  .services h2{
+    text-align: center;
+    align-items: center;
+    font-size: 30px;
+    margin-bottom: 4rem;
+  }
+  
+  .service-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .service {
+    margin: 15px;
+    width: 300px;
+  }
+ 
+  
+  .service img {
+    width: 40%;
+  }
+  .btn {
+    align-items: center;
+    margin-bottom: 2rem;
+   }
+    .cta2 {
+      background: rgb(4, 10, 53);
+      color: #fff;
+      padding: 10px 20px;
+      text-decoration:none;
+      margin-top: 15px;
+    }
+    .cta2:hover{
+      background:#ff3f0f ;
+   }
+  
+  .about, .contact {
+    color: rgb(8, 17, 78);
+    background-color:rgb(203, 227, 255);
+    padding: 50px 20px;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  /* FAQ Button */
+#FAQ{
+    background-color:rgb(203, 227, 255);
+    color: black;
+    height: 2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+.cta1 {
+
+    background:rgb(3, 7, 34);
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 15px;
+  }
+  .cta1:hover{
+      background:#ff3f0f ;
+  }
+  
+  form {
+    color:rgb(8, 17, 78);
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+  }
+  
+  form label {
+    margin: 10px 0 5px;
+  }
+  
+  form input, form textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid black;
+    background-color:white;
+  }
+  
+  button {
+    padding: 10px;
+    background:rgb(4, 10, 53);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: #ff3f0f;
+  }
+
+/* Footer */
+.footer {
+    background-color:rgb(3, 7, 34);
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .footer p {
+    margin-bottom: 10px;
+  }
+  
+  .footer-links {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-links li {
+    display: inline;
+    margin-right: 15px;
+  }
+  
+  .footer-links li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .nav-links {
+      flex-direction: column;
+    }
+  
+    .service-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
+
+
+
+

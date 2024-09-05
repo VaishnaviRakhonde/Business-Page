@@ -1,0 +1,114 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color:rgb(203, 227, 255) ;
+  }
+  
+  header {
+    background: rgb(3, 7, 34);
+    color: #fff;
+    padding: 10px 20;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+   
+  }
+  
+  .logo {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin: 0 15px;
+  }
+  
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+/* About Us */
+  .container {
+    width: 80%;
+    margin: 0% auto;
+    padding: 20px;
+}
+
+.about-us {
+    background-color: rgb(203, 227, 255);
+    color: rgb(8, 17, 78);
+    padding: 30px;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgb(3, 7, 34);
+    border-radius: 5px;
+    height: 70vh;
+   
+}
+.about-us h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.about-us p {
+    margin-bottom: 15px;
+    color: rgb(8, 17, 78);
+}
+
+
+/* Footer */
+.footer {
+    background-color:rgb(3, 7, 34);
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .footer p {
+    margin-bottom: 10px;
+  }
+  
+  .footer-links {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-links li {
+    display: inline;
+    margin-right: 15px;
+  }
+  
+  .footer-links li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .nav-links {
+      flex-direction: column;
+    }
+  
+    .service-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
